@@ -1,0 +1,955 @@
+THIS ONE SHOULD HAVE 352 RESULTS
+MAY HAVE TO MAKE SURE ALL SPACES ARE NORMAL SPACES
+
+2013-10-22
+
+{Tasks}
+- chuck [fr,1]
+- practice vocab [fr,0.5]
+- simple flash [pr,4]
+- cook 2 steaks, salad, lentils [co,1]
+- insanity [ex,1] ~ nathan
+- write postcards, errands [na,2]
+- youtube, facebook [na,2]
+- call bank [na,0]
+- finish reading articles [pr,0]
+- dissect language faults [fr,0]
+- dinner [so,1] ~ jeff
+
+{Convos}
+- been to a strip club before? strip club stories
+- gambling? casino stories
+- favorite place out of where been
+
+2013-10-23
+
+{Tasks}
+- plan metrics [pl,1.5]
+- networks [cl,3] ~ nathan, nick, merike, heather
+- pizza, salad, pair lunch [so,1] ~ merike
+- vice, mavericks [na,1]
+- nap [na,0.5]
+- assignment [fr,1]
+- swimming [ex,2]
+- french tandem [fr,1]
+- english tandem [so,1]
+- chicken breast, salad, lentils [co,0.5]
+- chuck [fr,0]
+- call bank [na,1]
+- dissect language faults [fr,0]
+- beer with Jeff [so,1] ~ jeff
+
+{Convos}
+- surfing / running chafing.  guy wearing bikini top to avoid 
+- when forget name of someone meet and it's too late to ask them. Know them too well. Ask them to add you on FB or pretend you don't know how to spell their name. Bad if it turns out to be very simple
+- phrase book to communicate in foreign countries. But when I use it no one understands me still
+
+{Deets}
+- laptop broke while trying to install maverick. None of fixes work. Going to have to visit apple store tomorrow
+
+{TIL}
+- slow start implementation macs use for TCP is very aggressive. Uses exponential increase of simultaneous packets. This means the connection will be faster but more likely to cause congestion aka they're assholes. Windows on the other hand linearly grows and when packet is lost, restarts count of packets. More considerate. Seems pretty representative of their styles. 
+
+2013-10-24
+
+{tasks}
+- omelette [co,.5]
+- fix computer / groceries [na,1.5]
+- Spain prep / pack [pl,1]
+- lunch [so,.5] ~ Jeff
+- French class [fr,2] ~ Stine, Maria 
+- shop for costume / dinner [so,3] ~ nick, Nathan
+- buy tickets / make vocab [pl,2]
+- party [so,4] ~ Maria, Stine, heather, Nathan, nick, Jeff, Sam, Lucas, Jamie, Ross, Gabrielle 
+- read articles [pr,0]
+- tennis [ex,0]
+- salsa [da,0]
+
+{convos}
+- Tried to book appointment too late, so hacked javascript to get in an appointment
+- favorite concert moments. Bands want to see in concert
+
+{deets}
+- costume shopping with nick and Nathan. I got a pig hat, nick got a tiger mask, Nathan got a wolf hat. Apple store didn't work out, turns out I need an appointment, and can only book a week in advance. Got food at part dieu. Asian food there is meh. Waffle factory is fantastic though. 
+- Halloween costume party. Per drinks at nicks we sang to all our favorite 90s music. Jeff opened wine bottles by banging the bottoms of them really hard against the wall
+
+2013-10-25
+
+{tasks}
+- Chicken, tomatoes, salad [co,0.5]
+- Flight [na,2.5]
+- 4 hour chef [re,1]
+- Get to hostel [tr,3]
+- 90 seconds [re,.5]
+- seafood paella [tr,.5]
+- Tapas and sangria [tr,1] ~ Kirsten, Shefali, Samantha
+- Walk along bay [tr,3] ~ Samantha
+- Clubbing [so,7] ~ Kirsten, Shefali, Samantha
+- sleep [sl,4]
+
+{deets}
+- Airport much lighter color palette but just as immaculate as cph
+- Baggage claim not timed as perfectly ~15 min wait on my flight there was an empty seat next to me and one away was an attractive Asian girl. She pretty much insta passed out when she got on the plane so I didn't talk to her. When I got off the plane and got on the bus to the city, she got on too and sat next to me and started speaking mandarin to me. Do I just look super mandarin or something?She's in Barcelona for a day as a connection flight to the UK, just going to walk around alone. Too bad Barcelona is the one city I'm actually meeting friends in :( 
+
+- In hostel met a group of people from lyon here roughly for same length of time as us. Also mix of exchange students. Probs will see again in future. Seem to be mostly people in tech. Hostel is giving good impression already. 
+
+- Went in restaurant, my presence was acknowledged but I wasn't told to sit down or anything. Stood around awkwardly til bartender told me I just sit down. When I did, nothing happened for a while. Then restaurant finally brought menu without saying anything. 
+
+- While walking around discovered local bars, horror show, supermarket with weird looking fish and fruit, and awesome busking Latin dancers. Wish I had moves like that. They all had prefect bodies. Seems like Spanish people all stay in great shape by doing all that dancing. Realized I may have a hard time socializing when get back since all I talk about now is traveling 
+
+- Girls discussing outfit to wear to appear like you can talk to me but will have to earn it
+- Talk to girl tattoo open up Convo for other guy who kino and ask what tat means
+
+{convos}
+- why chose your major, why chose my major
+
+- tell me your life story
+- learn one word of Chinese, doesn't help with rest. Doesn't help with other languages. Learn French you'll be able to bs Italian 
+
+2013-10-26
+
+{tasks}
+- Walking tour [tr,5] ~ Shefali, Miguel, Kirsten, Samantha
+
+- Wok to walk [na,1]
+- Nap [na,2]
+- Watch Soccer [tr,1] ~ Samantha
+
+- Tapas [tr,3] ~ Shefali, Samantha, Kirsten
+- Sleep [sl,9]
+
+{til}
+- 6000 a day reported pick pockets 
+- Picasso while drunk  painted the picture representing Catalunya that looks like it was drawn by a child. The two tall people in the side are the giants. The people in the middle is a human tower, which represented power of the working class. At festivals they do them still, sometimes up to 10 people high
+- Locals do Saldana dance on Sundays at 10am in front of the plaza with the Picasso. Famous sign of Catalan
+- Why aren't there any baby pigeons??
+- Famous architect made a mailbox in front of lawyers association mocking them. Swallows on it represent how swift the law should be. Turtle represents how it actually is. 
+- Bull fighting had been made illegal in Barcelona, they're trying to stick with more Catalonian traditions
+- Street beer vendors keep beers cool by storing them in the sewer drains
+- Eiffel Tower was originally supposed to be built in Barcelona
+- Spanish ham is pork fed single type of fruit whole life
+- Barcelona sand is Egyptian imported
+- What do with hands when people clap for you? Air pump?
+- Flies are annoying. Didn't seem to be a problem anywhere else
+- Not great Asian food
+
+{convos}
+- Would give kids phones?
+- High school reminisce on people. Who will be successful
+- Feel like have changed over years?
+- Surprised which friends turned out to be gay?
+
+{deets}
+- tour was super awesome. Regret not doing more of those in previous cities. Our guide, ruby, was hilarious. she said she was at one point in a human tower. They told her she had a good body for human towers, which she took as a complement but then later found out meant that she had broad shoulders and muscular legs
+- Football game between Real Madrid and FC Barcelona was a big deal. People weren't as rowdy as I expected though. Not that different from American football fans. We gathered with locals outside a bar with a big screen inside. A different bar nearby seemed to be streaming half a minute faster. They'd always boo and cheer before we saw what happened, spoilers!
+- Agreed to nap til 1:30 and then head out, ended up sleeping whole night. Shefali woke up but she just tried to ruffle our curtains to wake us which didn't work. 
+
+2013-10-27
+
+{tasks}
+- 90 seconds [re,1]
+- Mar Bella [tr,3] ~ Samantha, Kirsten, Shefali
+- Sagrada familia [tr,3] ~ Samantha, Kirsten, Shefali
+- KFC [so,1] ~ Kirsten
+- Magic fountain [tr,2] ~ Samantha, Kirsten, Shefali
+- Nap [sl,3]
+- Shoko [so,5] ~ Samantha, Kirsten, Shefali
+
+{deets}
+
+- Waited for girls to get ready for the day so read in my bed. We finished breakfast at 10, took until noon to leave. Traveling with girls is ridiculous. The waiting for them to do makeup and pick outfits and everything.
+
+- Everywhere we went the girls were wooed by all the attractive Spanish men. Though I must admit even I was impressed by their looks and good physique. I need to learn how to dress better when I graduate and have a real wardrobe. Also need to get into better shape.
+
+- When we were at a crazy viewpoint, the girls would be checking out the guys instead of the views. Do not understand.
+
+- The walking pace was also way too slow for me. But I guess part of traveling is relaxing and compromising.
+- Mar Bella was a nude beach. It seemed to only be older people that were going full nude though. The girls went topless, I only went nude right before I jumped into the water, then put it back on when I came out. Not as comfortable as the Europeans. Shefali apparently had a crazy birthday and a crazy trip to myrtle beach. But they refused to tell me details. Quote of the day by Kirsten: "I wonder how they teach about the holocaust in Germany. I guess it's probably like how they teach about slavery in the states. They don't make the black people leave the classroom or anything."
+
+- Sagrada was absolutely ridiculous. Didn't see much at the top since everything was under construction and there were tons of people trying to get photos. Inside the church everything was mind blowing. I've never seen such a modern looking church. All the crazy polygons and stained glass. I could stare at it for hours.
+
+- Ate at KFC with Kirsten while the other girls seeked out healthier alternatives. The KFC was delicious. I did feel my arteries being clogged though. We talked about our favorite fast foods and what we missed. 
+
+The magic fountain wasn't playing. That only goes on Fridays and Saturdays. Once at 7, once at 9. Can't miss it next week. We just checked out the view and then headed back so the girls can take care of their business before we go out for the night. 
+
+- After a nap we went out with the hostels people to a club called opium. Seems to be one of the higher end clubs since it was right by the beach. I wasn't allowed in since I was wearing shorts and running shoes. Apparently that's not allowed. Hostel people should have told us that... Another guy who had foot surgery so he could only wear sandals also wasn't allowed in. Yet the girl he was with wearing sandals was. The group of us went next door to another club called shoko. The girls got in for free. Guys paid €12. Decent music, not great crowd. Good times still just dancing with Kirsten and Shefali. 
+
+2013-10-28
+
+{Tasks}
+- YouTube, backup photos [na,2]
+
+- Park guell [tr,2.5]
+- Gazspacho [tr,.5]
+- Arc de triompf, barcoloneta [tr,3]
+- Chai [tr,.5]
+
+- Read at Fountain [re,.5]
+- Overnight train [sl,9]
+
+{Deets}
+- I swear they plant trees in such a way that you have to pay to get a good view at park guell. The close by other park also offers a decent view 
+
+Gazspacho place drew me in with clever sign about their food being good but English not so much. Owner was super nice. Don't know why but he gave me giant bottle of water instead of small one like local person next to me and gave me all fries as a side instead of veggies like person next to me. Turns out large bottle of water was no additional cost. He also offered me more chicken and a dessert. Maybe that would also have been free? Gazspacho is not great, probs will not eat again
+
+- park guell is fantastic. great view of the entire city
+- the chai and fountain were both very tranquil. I got a choco chai, I think it's the first time I actually enjoyed chai. barcelona is fantastic, really has a spot for everything
+
+2013-10-29
+
+{Tasks}
+- Walk to hostel [tr,3]
+- Walking tour [tr,4] ~ robin, jack
+- Check in, shower [na,1]
+- Chat [so,1] ~ robin, jack
+- Nap [sl,2]
+- Get SIM card [tr,1]
+- Tapas and beers [tr,3] ~ Alex
+- Australian drinking game [tr,2]
+- Pub crawl [so,4]
+- Sleep [sl,7]
+
+{Deets}
+- Tour guides name is Jesus. In his tour talked about chillax and trolling. He's also very not religious
+- Free drinks from crappy bars. Some try to woo you by telling you they have girls. Alex showed me what traditional Spanish tapas were. Squid, crushed eggs on fries with other things mixed in, tortilla (not the same as American kind. They call that tortas). Apparently Valencia is good at Spanish omelette.
+- Cute asian girl in the hostel on phone while I was charging my phone. We both had the same otter box. I didn't talk to her and went to check in and when I came back she was gone. Fuck. Saw her and her friend again later in the afternoon. But some Australians joined the conversation and basically completely took over
+- Australian drinking game: everyone has 4 cards face down. You build a pyramid of cards and reveal them one by one starting from bottom. Any time a card is revealed you can tell someone to drink. That person can drink or call bullshit on you. If they call bullshit you must reveal a card you have face down that matches the number of the card revealed. If you can't you drink double. Number of drinks corresponds to layer in pyramid being revealed.
+
+- pub crawl that night was meh. Didn't really connect with anyone. There was two people from brussels. One was an engineer who tried to tell me how they use feedforward systems and it's better than feedback. Two girls from michigan, near novi. And a couple others. Bailed when we got to Joy - a 5 story club. Didn't seem that great and still quite empty at 4am. It was tuesday afterall. As I was leaving saw two attractive asians walk in, but didn't really register it til after I was out.
+
+{convos}
+
+- Would enjoy French taco if any other name. Got my hopes up for nothing
+
+{TIL}
+- Tapas originates from the word for bottle cap. It blocks the alcohol. Back in the day workers would drink during lunch and then wouldn't be as efficient in the afternoon so government made bars give free food along with beer.
+- Madrids name originates from city built on the river
+- Nuns sold cookies but because of vow of chastity they weren't allowed to see or touch men so they used a spinning door contraption to sell them
+King in Spain is figurehead, just like England. President just got elected and he's corrupt, cutting budget from education, etc  people are not happy. 
+- Cathedral is a higher level church
+
+2013-10-30
+
+{tasks}
+- Walk to wok, eat at park [tr,2] ~ Guillermo
+
+- Find bike rental, go back to park [tr,4] ~ Guillermo
+
+- Hang at park [tr,3] ~ Guillermo
+
+- Almendro 13 [tr,2] ~ Guillermo
+- Train station mall [tr,3] ~ Ignacio
+
+{deets}
+
+- At park haggled for a pair of beats. They're probably fake but got it for €22. Sound is decent
+
+- On the way back to the park found a statue and finally completed the statue tag with the sheep we'd been stick on. 
+
+- After long walk, got to bike rental place but it was closed. Next place we checked wasn't open yet. Siesta time. 
+
+- Ended up just checking out the nearby gardens (nothing all that special to see but illegally tried madrono fruit and chinese bitter orange) then hanging at the park, watching the sun set and capturing it on gopro time lapse. 
+
+- Almendro 13 was recommended on internet as some of the best tapas. The huevos and rascos both indeed were amazing. The cured ham in the rascos with the delicious bread with a hint of olive oil on it left a great aftertaste. 
+
+- Prostitutes walking on street propositioning people. According to Ignacio they made some sort of taunt about the size of my dong. Prostitution is illegal but police don't really enforce it
+
+- stopped by the hard rock cafe and got kirsten a madrid pin
+- hanging out with Ignacio was alright. He was a gracious host but obviously he didn't care all that much I was there. He was rather annoyed I didn't give him more notice which is fair / that I didn't ask him for advice for what to do in Spain
+
+{TIL}
+- Three kings day is a second Christmas on January 7
+
+- Madrid known for huevos rotos and churro con chocolate, Valencia known for paella
+
+- the clock tower there is the equivalent in spain for times square's ball drop
+
+2013-10-31
+
+{tasks}
+- Bus ride [sl,3]
+
+- Beer / get to hostel [tr,1]
+- Oceanographic [tr,3]
+- Beach [tr,2]
+
+- Paella, flamenco, pub crawl [tr,6] ~ Bonnie, Eric, Ashley, Kim, Alex, Eduardo
+- Sleep [sl,5.5]
+
+{deets}
+- I think valencia might actually have everything I loved about Barcelona without the fly problem and as much of the tourism. But I was only there two days, which I don't think is sufficient time to judge a city (3 totally is okay though, in the case of Rome). 
+
+- But the fact that it's less touristy also means there's less people that speak English
+- Public transportation is not so good? Times by metro seem to equal time by walking. 
+
+- Oceanographic is biggest aquarium in Europe?
+- Beach very lovely. People with massive sand sculptures in it.
+
+- Paella had snails in it. Tasted really good. Back in the days the meat put in paella tells you how rich the person is. Chicken was for rich people. Poor people put in snails and rats. Middle class put in rabbit. 
+
+- the other guys at the pub crawl did a flaming shot where they vaporized the alcohol and captured it in an upside down cup. inhaling that gets it right into your blood stream. supposedly as potent as taking it up the butt
+
+- eduardo bought me a shot which I had to drink with my eyes closed. It ended up being in a dildo-shaped... funnel? with whipped cream all over my mouth
+
+- girls weren't dressed as sluts. Actual dead people costumes
+- when cheers (salut) in spain, you also have to tap and drag the glass - if you don't tap you won't have good sex, and if you don't drag you won't come
+
+{til}
+- Age of consent is 13 in Spain
+
+- Sharks eat their brothers when they're born so sharks can only have two children max (two chambers)
+
+- How do jellyfish work??
+- Sea turtles can't go into their shells because it's full of muscles for their migratory swim
+
+2013-11-01
+
+{tasks}
+- Breakfast [so,1] ~ Eric, Bonnie, Kim
+
+- Walking tour [tr,2] ~ Carolina, Eduardo
+- Paella, rent bikes [tr,2] ~ Carolina
+- Museo de cienca, bike along beach, Burger King [tr,6] ~ Carolina
+
+{til}
+- Spain has 45 working holidays. That's almost one a week. 
+- During pre-fascism if you skipped church you'd be considered a communist and may be jailed. During fascist rule if you were walking with another guy you may be considered gay and killed. Now Spain is super liberal. Government will pay for a sex change, there's gay marriage, etc.
+
+- Holy grail is supposedly in Valencia.
+- Valencia is known for its oranges, though those were originally imported from Africa
+
+- It was the capital of Spain at one point
+- Fallas burn wooden dolls party. 2010 had a 1 mil euro wooden doll 
+
+- In Portugal the economy is really bad right now. People steal railings from peoples apartments to melt down and sell
+
+{deets}
+- Eduardo gave us the walking tour. Apparently they were out incredibly late the night before, til about 7. So the tour wasn't great. He clearly wasn't in proper shape to be giving it. Rushed through history all at once and didn't give too many interesting stories. 
+
+- Got sicker and sicker throughout day, felt bad for Carolina. Hard to flirt when there's a language gap so some of my jokes didn't make sense and some questions she didn't answer what I meant. Very impressed by her language skills and navigation. She's very independent and of course being half Asian raises attractiveness. 
+
+- The science museum was like exploratorium. Nothing that extraordinary. Seems like it'd be a fun place for a date, doing the little games together
+
+While we were biking along the beach I dropped my iPhone whole trying to navigate. Proceeded to run it over. So glad I got the otter box. A corner of the case got shaved off but thankfully the iPhone itself is okay
+
+2013-11-02
+
+{tasks}
+- Bus to Barcelona [sl,3]
+
+- Read persuasion [re,1]
+- Spanish omelette [tr,1]
+- Read persuasion [re,1]
+
+- Nap [sl,3]
+- Tapas tour [tr,2]
+- YouTube [na,2]
+
+- Nap [sl,2]
+- Opium [so,4] ~ big Martin, jake, till, Carla, dani, julien, mark
+
+{deets}
+- Confirmed. Spanish omelette is just omelette with potatoes in it. Not very good
+- Lot of napping to recover from cold
+
+- Tapas tour was cool. Met lots of Canadians and Australians. Seems to be popular right now for them to be traveling. Prague was again mentioned several times as a favorite city. There's a church of bones there apparently. Creepy. And people don't really smile. 
+
+- drank beer from a Perron - kind of like a flask..? you're supposed to pull it as far from you as possible
+
+- great 1 euro pinxtos - they're really just anything with a stick in them. lots of variation, all quite good. one of them was a bowl of some sort of meat. funny that that also counted as a pinxto
+
+- went to a Michelin recommended tapas place. they only gave us the generic tapas, but even those were quite good
+- went back to the hostel and was going to sleep for the night, but then got woken up at 1:30 by someone talking loudly in the room. they said they were from the university of lyon. turned out it was jake. since i was up i joined them and went to the club. opium is actually super legit. great music, lots of fun. at one point a group of 3 girls slowly danced towards us. one of them was super attractive and from thailand. yet i freaked out and got our people to take a break from the dance floor and go to the beach, didn't talk or dance with them at all. julian tried talking to the thai girl in spanish. i thought that meant she was spanish and not down to talk to an english person. turned out julian asked if she spoke spanish and she said no.
+
+2013-11-03
+
+{tasks}
+- Walk to dance [tr,1] ~ Merike
+
+- Mcdonalds [so,2] ~ jake, mark, till, Merike, dani, julien
+- Park guell [tr,3] ~ till, Merike, dani, Carla
+
+- Find food [tr,3] ~ till, Merike, dani, Carla
+- Hang at hostel [so,4] ~ till, Merike, dani, Carla
+
+- Bus [sl,8]
+
+{deets}
+- Polish departure - leaving super early
+
+- Americans argue about whether 1 degree change Celsius is more than Fahrenheit / which ocean we're at. Girl went in ocean with camera and obviously broke it. Also complaining about how all of Europe sucks since shops were closed early. So American. 
+
+- we discovered a hole in wall churro place that makes churros fresh. so delicious
+- also found Chinese food! Felt uncomfortable when I was only one given chopsticks and the menu was different for Chinese people. It felt weird to share my culture with Europeans. The waiter told me in Chinese how some items are more suited for Chinese taste buds. I went against his suggestions and ordered the white washed chow mein. Again don't really know in what culture I belong 
+
+- Attractive girls on bus but afraid from language to engage. Really envy people who know many languages. Need to improve own language skills
+
+{convos}
+- Differences in culture and foods. China babies don't wear diapers butts hanging out. Take poop in KFC. Germans eat one heavy meal per day. Rest just eat bread.
+
+- Salting vegetables preserved them for winter when things stopped growing
+Don't feel like I belong with any group really
+
+- Difference when hanging out with guys vs girls. Am I bro enough? Not quite same hanging out with me as with other guys?
+
+{til}
+- Stuff from persuasion book - contrast, reciprocity, concession 
+
+2013-11-04
+
+{tasks}
+- TIP Class [cl,2] ~ Pierre, Haoyu, Yongli, yalei
+- Nap [sl,.5]
+- Lunch [so,1] ~ Nathan
+- Apple store [na,2]
+- Waste time [na,2]
+- Nap [sl,1.5]
+- Chicken broccoli soup [co,.5]
+- Study DBM [cl,.5]
+- waste time [na,1.5]
+- Kfet [so,2] ~ nick, Sam, Jeff, Marco
+- Skype parents [so,1] ~ parents
+
+{deets}
+- first TIP class. Not as bad as expected. I can understand keywords and extrapolate meanings. Definitely takes much more concentration and am much more aware of people talking / coughing, etc in class. Kind of annoying.
+
+2013-11-05
+
+{tasks}
+- Study exam [cl,1]
+- Exam [cl,2] ~ Nathan, nick, Marco, Stine 
+- Lunch [so,1] ~ Sunethri 
+- Go to apple store [na,2]
+- Read while wait for fix [re,1]
+- Class [cl,2] ~ haoyu, yongli, yalei
+- Internet [na,4]
+
+{deets}
+- Exam for DBM super easy, not at all a concern
+
+2013-11-06
+
+{tasks}
+
+- Fix computer [na,1]
+- Study networks [cl,1]
+- Aziz Ansari [na,1]
+- Lunch [so,1] ~ heather, Sam
+- Swimming [ex,2] ~ Haoyu 
+- Tandem [fr,2] ~ Manu, Alexandre 
+
+- Dinner [so,1] ~ Sam, nick, Nathan
+- Study networks / French [cl,1]
+- Louis c.k [na,2]
+
+{deets}
+- Timed trials in swimming today. I did roughly 7 minutes per 250m. Not the slowest but near bottom
+
+- Good joke from aziz comedy show: text girl, she responds back right away, I respond back right away, then after about twenty texts like this I ask her out to pizza and suddenly no response. What, did she put her phone in a locker and go on a roller coaster or something? After an hour I wanna text her back and say you're uninvited to the pizza party because I hate you now. She responds way later apologizing for being at a recital and had to turn phone off. Too late birch, I had the pizza party without you. With my friend Brian who actually is nice to me. 
+- French people talked to were very chill bros who play ping pong. Manu told me about a good viet place called Saigon gourmet. I need to go sometime with him. He says he's also a good cook
+
+{convos}
+- Favorite shows growing up
+
+{til}
+- Ed edd and eddy is about real people in purgatory
+
+2013-11-07
+
+{tasks}
+- Networks [cl,3.5] ~ Ruonan, hanyu, Nathan, Merike, nick, anju, Nikesh, heather- Lunch [so,1] ~ heather, Stine, Maria, Jamie, Nathan
+- Laundry [na,.5]
+- French class [fr,2] ~ Maria, Stine, Tito , Ross, gabrielle
+
+- Go to bank [na,.5]
+- Mix of random leftovers [co,.5]
+- Watch day9 [na,2]
+- Salsa [da,2]
+- Oktoberfest [so,4] ~ Nathan, nick, mark, Martin, big Martin, jake, andi, Sam, Ross, Jesse, Merike, dani, till, Manu, julien
+
+{deets}
+
+- Networks most educational lab have ever had. Feel like I understand so much about networks now
+- Bank person super bitchy
+- Watch day9 to understand what is good humor / personality
+
+- Salsa more intense than expected. Sweat a lot, feel bad for girls. Sometimes hard to understand so didn't fully understand everything. The Cuba deplace actually quite hard, had hard time fully learning. Didn't know guy lead by signals from arm that tell them what move to do next. 
+- Oktoberfest quite lamely done. They had german beer and food but it was all meh. The Germans said the beer there wasn't legit German beer. Lots of people though, so not so bad
+
+{convo}
+
+- what there's to do in Germany. Explained why Germany is how it is now - people don't want to be associated with / haunted by the war. In this day and age nazis aren't brought up seriously in relation to Germans but the fact that people joke about it still stings. They try to embrace their culture and be generally awesome people to get over the past. 
+
+{til}
+- Esprit d'escalier - when you think of a comeback 10 minutes too late
+
+2013-11-08
+
+{tasks}
+- Chicken and green beans [co,.5]
+- Pack, day9, go to airport [na,2.5]
+- Nap [sl,2]
+- Walk around airport / eat [tr,1]
+- Write at airport [wr,1.5]
+- Read on flight [re,1]
+- Nap on flight [sl,.5]
+- Get to hostel [tr,1]
+- Pho dinner [tr,2] ~ Jamie wong
+- Pub crawl [so,7] ~ Jamie wong
+
+{deets}
+- pho wasn't really pho but tasted quite good. definitely better than anything I had in france
+- Danced with two girls at pub crawl. Didn't know how to escalate. One declared right away she was asexual. Hadn't heard that one before.
+- Jamie from the beginning met a girl named Mita. She had a polaroid camera and took a picture for us. She was super into Jamie and basically clung to him the whole night, which sucked since Jamie really wanted to get with one of her friends. He actually couldn't tell which the friend was since the friend had an identical sister. He already built rapport with one. It turned out the one he built rapport hooked up with another dude, Jamie was mistaken on which one was which
+- Got doner and currywurst while drunk. Doner place was playing porn in the background
+
+{convos}
+- Good conversation with a fellow Canadian about the state of Facebook, whether it will last, our jobs at the government
+
+2013-11-09
+
+{tasks}
+- Breakfast [so,1] ~ Jamie wong
+- Walking tour [tr,4]  ~ Jamie wong
+- Currywurst [tr,2] ~ Jamie wong
+- Trap [tr,1.5] ~ Jamie wong
+- Cali burrito [tr,1] ~ Jamie wong
+- Pub crawl [so,9] ~ Jamie wong, rong, Adrian, Sylvia
+
+{deets}
+- Saw Berlin Wall, checkpoint Charlie, holocaust memorial, a bunch of museums and other pretty buildings
+- While walking around after tour saw someone doing ball under 3 cups gamble. Witnessed a girl get hustled by it and lose $50. The look of shock on her face, felt so bad.
+- trap quite similar to real escape game. A bit shorter and not nearly as elaborate. Cool use of having to decipher braille to get letters which we had to type on a T9 to get numbers to defuse bomb. Also had to pull a cork out of a bottle with a towel. Jamie had seen this before, I had no clue. We successfully finished with 3 minutes remaining
+- Burrito place decorated with mission stuff. Made me nostalgia hard. Discussed with Jamie my friends issue. He says it'd help if I actually stayed in lyon for a weekend and spent more one on one time with people. Also it's not possible to have that many super close friends. I gotta pick my battles
+- Met an Asian at pub crawl named Rong. She was a PhD student who lived most of her life in new zealand / australia. We both felt somewhat of an identity crisis. Danced all night with her, tried twice to make a move. First time rejection wasn't clear, second time it was very obvious. But later in night it seemed like she was signaling she wanted me to make a move, but then she'd say things like I reminded her of her cousin. Was quite confused.
+
+{convos}
+- highlights from spain: 45 working holidays, halloween in valencia (shots, girls costume, flamenco show, tour guide, paella, age of confsent), americans embarassing in barcelona, australian drinking game, friend commenting on how I must have tried extra hard to not get laid, trying to talk to the girl in madrid and picking the one wrong option for what to do, asians in barcelona that i walked away from, tap and drag, baby pigeons, good body for human tower
+
+{til}
+- When Berlin Wall, someone escaped from east Berlin with low windshield less cars- Berlin built on swamp, lots of buildings sinking
+- Hitler married day before committed suicide in bunker
+- Jedi academy is long room in dublin. Wasn't allowed to film there so Spielberg sent in bunch of photographers as tourists and took thousands of photos to recreate digitally the room
+- Spire in dublin is liked since it acts as drunk beacon. Originally despised since seemed like government was wasting money, supposed to be an icon for the city.
+
+2013-11-10
+
+{tasks}
+- sachsenhausen Concentration camp tour [tr,5] ~ Jamie wong
+- Doner [tr,1] ~ Jamie wong
+- YouTube [na,1]
+- Nap [sl,3]
+- Monsieur vuong pho [tr,2] ~ jamie wong
+- Internets [so,2] ~ Jamie wong
+
+{deets}
+- pho quite fantastic. Still not really real pho, but definitely really good noodles and soup
+- After pho while walking around we smelled something amazing and followed the scent. First time I've been lead by a smell. Jokes about how hard it is to navigate. My nose actually started hurting from how hard I was sniffing. We ended up finding the source but the place didn't appear to be a shop. Don't understand. 
+- This afternoon felt sense of longing for companionship again. Probably resultant from night before. Haven't felt that need in ages. 
+
+{Convos}
+- Scared for kids when have them. So many ways can die
+- Tattoos - terrible ones. Story of friend woke up after night out with red hair. "At least didn't get a tattoo" Shows tattoo. 
+- When I watch dramas, I wish everyone were happy and nothing bad happened
+
+{til}
+- They say black or white instead of asking if you want milk in coffee
+- German trains always arrive on time 
+- Jehovah's witnesses trusted to cook food for guards, babysit, etc because they're pacifists.
+- When guards couldn't finish their food it was fed to dogs and what's left from that they made prisoners eat off the floor
+- Nazi troop training camp now used to train police. Constant reminder for them of their past
+- Prisoners along with being given a number were given a triangle colored identifying what kind of prisoner they were - Jewish, gay, communist, rapists, etc. guards use the rapists to commit punishments. Then they're better off psychologically and they are less guilty. Also prisoners then discriminate against each other and are less likely to rebel and escape
+With 50k people in the camp, roll call is done in Morning and afternoon and each lasts 3 hours. It's a form of torture since prisoners are barely wearing anything and it's very cold out.
+
+2013-11-11
+
+{tasks}
+- DDR museum [tr,3] ~ Jamie wong
+
+- Doner while find souvenir shop / giant ball statue [tr, 2] ~ Jamie wong
+- Toboggan, Street food kartofflepuffer with apple sauce [tr,2] ~Jamie wong
+
+- Stop motion, Puzzle shop, Bubble tea [tr,2] ~ Jamie wong
+
+- Photos at pergamon [tr,2] ~ Jamie wong
+- Burrito [tr,2] ~ Jamie wong
+- Beer at hofbrau [tr,3] ~ Jamie wong
+
+{deets}
+- DDR museum lots of fun. Very hands on and interactive. Realized that I don't like museums because of all the reading and having to make choices of what to look at. I'd rather a guide just tell me exactly what to look at and not make me read
+
+- German guy helped me get up on ledge for photo at giant ball statue. Randomly nice dude. Giant ball seemed to be made to look parkour-able, yet be quite hard to do so
+- At Starbucks, after returning from the bathroom I "whispered" to Jamie  "there are several Asians here". It appears I said it louder than expected and the person sitting opposite to us gave me a really strange look. Jamie had a good laugh.
+
+- Did some cool long exposures at pergamon. I'd like to think I'm getting better at photography. Definitely need a tripod
+
+{til}
+- Trabi had 15 year wait on it so if you wanted your kids to have one you had to order one when they were born
+
+- Wearing jeans was a sign of rebellion in soviet Germany and could get you kicked out of school 
+- Kids had to take collective potty breaks during communist rule to promote socialism
+- even though the country was supposedly classless during socialism, the elites within the government still had completely different stores to get rare commodities and such, sucks that there can't be a perfect socialist society
+
+- women were actually equal in terms of rights and powers, yet they still seemed to end in their traditional roles
+- 1/6 of people in East Germany had summer homes to "escape". This continues even today. It's greater than 10 times the amount of people with such in West Germany
+
+{convos}
+
+- Relationship deal breakers
+- Would date someone who cheats? Lies? Steals? Invades privacy?
+- Biggest regrets
+
+- How many kids want? Siblings?
+- Injuries / broken bones
+
+2013-11-12
+
+{tasks}- Airport / Flight [sl,7]
+- Groceries [na,2]
+
+- Plan for day [pl,.5]
+- Asian chicken and soup [co,1]
+- Nap [sl,1.5]
+
+- Image processing [cl,2] ~ Haoyu, yongli, yalei
+- Asian chicken and soup [co,1]
+- Add photos to Facebook, himym [na,4]
+
+- From Paris with love [so,.5] ~ Nathan, Sam, Jeff, Martin, luigi
+
+2013-11-13
+
+{tasks}
+- Networks discussion [cl,.5] ~ hanyu
+- Insanity [ex,1]
+- Internet [na,.5]
+- DBM [cl,2] ~ Nathan, nick
+
+- Lunch [so,1] ~ Marco, hanyu
+- Get mail, chill [na,1]
+- Networks [cl,4] ~ Stine, Nathan, nick, Marco, Merike, heather, nitesh, hanyu
+
+- Tandem [fr,2] ~ Sam, Martin
+- Beers [so,2] ~ Nathan, Sam, nick
+
+- Ohlifes / himym [na,3]
+- Study tip [cl,0]
+
+{convos}
+- philosophical debate in tandem about what are terrorists, aliens, our thoughts on satellites
+
+- economics and green efforts in various countries
+- Donald glover and bo burnham jokes / clever lines
+
+{til}
+- lady gags scheduled to go to space for a performance in 2015
+
+- England is part if EU. They just have stricter borders because you have to cross the ocean so anyone could be sneaking through. They have different currency since they believe if one country with euro tanks, so will rest. Which is kind of what's happening now. Germany is pulling weight of Greece, Spain, Italy
+
+2013-11-14
+
+{tasks}
+- Insanity [ex,1] ~ Merike, Nathan
+
+- Internet [na,1]
+- Run errands : get new sheets, jetons, scan visa, caf [na,2] ~ heather
+- Groceries, go to bank, laundry [na,1]
+
+- Lunch, YouTube [na,1]
+- French class [fr,2] ~ Stine, Maria, nitesh, ross
+
+- Ohlifes [pl,1]
+- International relations meeting [so,1] ~ nick, Jesse, mark worker
+- Salad and asian chicken [co,1]
+
+- Salsa [da,2] ~ dani, Gonzalo
+- Networks paper [cl,2]
+
+- Gta [so,1.5] ~ Nathan, mark worker, nick, Jesse 
+- Study tip [cl,0]
+
+{deets}
+- planned Christmas / birthday party a bit with heather. We want to get some decorations, perhaps have everyone put something on a tree. Also secret Santa and maybe a dinner
+
+- found out Jesse is getting expelled since he hasn't paid. Pretty fucked up
+
+{convos}
+- Christmas traditions 
+
+2013-11-15
+
+{tasks}
+- Internet [na,1]
+- Insanity [ex,.5]
+- Study tip [cl,1]
+- Nap [sl,.5]
+- Mushrooms chicken [co,1]
+- Internet [na,1]
+- Study tip / networks [cl,1]
+- Tip [cl,3] ~ Haoyu, yalei
+- Dinner [na,.5]
+- Carrefour [so,1.5] ~ Nathan, nick, jayne, kayleigh
+- Hearthstone [na,1.5]
+- Networks [cl,1]
+- ayers rock [so,5] ~ maria, lucas, nathan, nick, jayne, kayleigh, sam, andi, dani, stine, heather, merike, gabrielle
+- hearthstone [na,1]
+
+{deets}
+- nick's friends are visiting from Madrid. They are super american attitude-wise.
+- can't stop watching hearthstone, it's so good. Perfect mix of nostalgia for magic and warcraft for me
+
+2013-11-16
+
+{tasks}
+- Watch Korra, go on internets [na,2]- Steak and green beans [co,1]
+- Catch up on feeds [re,3]
+- Chat with nicole [so,1] ~ nicole
+- Skype parents [so,1.5] ~ parents
+- Bouchon [so,3] ~ kayleigh, nathan, nick, madeline, jayne, sam
+
+{deets}
+- at bouchon ate frog and snail. love the pesto sauce, need to learn how to make that. snail's quite good, frog tastes just like chicken but smaller. and the ones they made were bland
+- kayleigh and jayne told a story about how their friend got drunk and peed off a balcony onto some kid. the kid's dad got furious and came up and beat the guy up. also ibiza is apparently the craziest clubbing city. need to go sometime
+
+2013-11-17
+
+{tasks}- steak and salad [co,1]
+- writing [wr,4]
+- chat with steven [so,.5] ~ steven
+- hearthstone [na,7]
+
+2013-11-18
+
+{tasks}- hearthstone [na,3]
+- writing [wr,1]
+- insanity [ex,1]
+- nap [sl,.5]
+- hearthstone [na,3]
+- talk with people [so,1] ~ xuehai, stephane, jamie, nathan
+- study tip [cl,2]
+
+{deets}
+- everything about signals suddenly clicked. why we learn discrete - because that's how digital signals are represented. bode plots, nyquist plots. it all makes sense now. what's the point of convolution, etc etc. i wish i actually paid attention in 380 and 327 now.
+- convos with xuehai, jamie, stephane, nathan about how one achieves epiphanies and about how i'm considering switching into hardware. i may just be going through my chronic quitting habits again.
+
+2013-11-19
+
+{tasks}
+- day9 stories [na,1]
+- insanity [ex,.5]
+- net [cl,2] ~ stine, merike, nathan, heather
+- lunch [so,1] ~ marco, nathan, merike, jamie
+- groceries, bank [na,1.5]
+
+- chuck / vocab [fr,3.5]
+
+- burrito bowl [co,1]
+- chuck [fr,1]
+- internet [na,1]
+- workaholics [so,1.5] ~ nick, nathan, merike
+- chuck [fr,1]
+- plan christmas trip [pl,.5] ~ sean v
+
+{deets}
+- workaholics is hilarious. defs need to watch more in future. so many ridiculous quotes from it.
+
+2013-11-20
+
+{tasks}- dbm [cl,4] ~ nick, nathan
+- lunch [na,1]
+- study french : do assignment / watch chuck [fr,2.5]
+- nap [sl,.5]
+- swimming [ex,2] ~ haoyu
+- tandem [fr,2.5] ~ jake, sam
+- burrito bowl dinner [co,1] ~ sam
+- study french [fr,2.5]
+- study tip [cl,0]
+
+{deets}
+- decided today i'd get my shit together and start taking french seriously. going to only speak french at home and try harder to improve
+
+2013-11-21
+
+{tasks}
+- waste time [na,1]
+- tip [cl,2] ~ haoyu, yalei, yongli
+- lunch [so,1] ~ haoyu, yalei, yongli, hanyu, vivian
+- read feeds [re,.5]
+- french class [fr,2] ~ ross, stine, maria, gabrielle, tito
+- insanity [ex,1]
+- write [wr,.5]
+- burrito bowl [co,1]
+- salsa [da,2] ~ dani, gonzalo
+- writing [wr,4]
+- study tip [cl,0]
+
+{convos}
+- what's your favorite memory? happiest? worst?
+
+2013-11-22
+
+{tasks}- watch day9 life story [na,2]
+- insanity [ex,1]
+- grillon [na,1]
+- hacker cup [pr,1.5]
+- study tip [cl,2]
+- saigon gourmet, gravity [so,3.5] ~ cheng, nathan, heather, jeff
+- bar [so,2] ~ stine, dani, maria, jeff, heather, nathan, cheng, peter, daniel
+- qg club, kebab [so,5] ~ stine, heather, cheng, nathan, daniel
+
+{deets}
+- hacker cup was a lot of fun to do. pretty proud of my answer. don't think it can get that much more efficient, unless it's micro optimizations. definitely need to improve at my speed though
+
+- saigon gourmet turned out much better than expected. the pho actually had raw meat that cooked in the soup! the soup's quite good as well. noodles weren't great though. along with the pho you get a dessert and entree buffet. pretty sure we could have done with just entree buffet
+
+- gravity much prettier than expected. the plot's a bit cheesy since you know bad things will keep happening, but gave me a much better idea of what it's like in space. never thought about how they'd need massive supplies of water to propel themselves around and how they'd have special tools to use, have handles everywhere to get around, etc. sandra bullock and george clooney carried the entire movie, there's practically no one else in it. they're quite impressive actors
+
+- decided to go for a quick drink after the movie and bumped into everyone else at the bar. went clubbing after at qg club. if girls give them their bras, they get a meter of shots. at 4am, for some reason everyone in the place started taking off their clothes. like all their clothes. it was really weird and we gtfo-ed and got some kebabs
+
+2013-11-23
+
+{tasks}
+- internet [na,2]
+- groceries, mcdonalds [na,2]
+- skype [so,1] ~ parents
+- read feeds [re,2]
+- waste time [na,1.5]
+- talk to tifo [so,1] ~ tiffany
+- read / think about writing [re,2]
+- waste time [na,1]
+- asian steak and veggies [co,.5]
+- doctor who [na,1.5]
+
+{deets}
+- reading articles by alicia liu (a waterloo comp eng grad!), feel like i better understand how to improve at writing as well as feel less insecure about my programming skills. there always will be people that are better, but that doesn't mean i'm not good. 
+- when skyping parents tried to also get grandparents in the conversation. they didn't know how to set up the mic so i couldn't hear them, so parents had them on the phone and put the phone up to the computer for us to talk
+
+2013-11-24
+
+{tasks}
+- doctor who [na,1.5]
+- read up on how to be funny [so,3]
+- workaholics [na,1]
+- burrito bowl [co,1]
+- waste time [na,1.5]
+- nap [sl,1]
+- skype [so,2.5] ~ kirsten, mark
+- course regirstration [na,1]
+- hike [tr,0]
+
+{convos}
+- what's biggest lesson learned in europe?
+- what's the most interesting person met?
+- what's the most dangerous situation been in?
+- how much money would you suck a dick for?
+
+{deets}
+- despite all the reading on how to be funny, still feel unconfident and feel like i'm not interesting. Steps I need to take to be funnier is to actually try to remember some of the punch lines after watching funny stuff and practice free association when I can, as well as try to write up some of my old funny stories so that I can tell them better. Maybe take an improv class in the future to better think on my feet
+
+2013-11-25
+
+{tasks}
+- insanity [ex,1]
+- study [cl,2]
+- lunch [na,.5]
+- nap [sl,1.5]
+- tip [cl,2] ~ haoyu, yongli, hanyu, yalei
+- waste time [na,2]
+- workaholics / burrito bowls [so,2] ~ merike, nathan
+- study tip [cl,0]
+
+2013-11-26
+
+{tasks}- net2 [cl,4] ~ nathan, nick, stine, heather, merike, pawel
+- lunch [so,1.5] ~ merike
+- waste time [na,1.5]
+- insanity [ex,1]
+- study tip [cl,2.5]
+- study more tip [cl,0]
+- burrito bowl [so,1.5] ~ nick
+- workaholics / himym [na,1]
+- beers [so,1.5] ~ nathan, nick, sam, jeff
+
+2013-11-27
+
+{tasks}- study tip [cl,1.5]
+- dbm [cl,2] ~ nathan, marco
+- lunch [so,1] ~ nathan, marco, merike
+- deal with bank and classes [na,1]
+- study french [fr,1.5]
+
+- stretch / practice swimming moves [ex,.5]
+- swimming [ex,2] ~ haoyu, daniel
+- tandem [fr,2] ~ daniel, jake, big martin
+- asian chicken and veggies [co,.5]
+- TC party [so,1] ~ stine, sam, gabriel, nathan, sunethri
+
+- get mince pies from heather [so,.5] ~ heather
+- watch TED talks [na,1]
+
+{til}
+- in the time it takes us to blink, a fly can detect a predator and maneuver to dodge it (it flaps at 220 times per second). even though their brains are small, they’re incredibly powerful and fast
+- in order to study the pattern of flight in flies, they built a larger model replica that flaps in the same way, then put it in a tank of mineral water and was able to generate models from the waves of the water. they saw it was basically creating little vortexes 
+
+{deets}
+- went to TC party to try the vin chaud (mulled wine). their version was not great. it was lukewarm and was simply wine with some cinnamon in it
+- mince pies aren't great, the raisin in the filling doesn't appeal to me
+
+2013-11-28
+
+{tasks}- crepes [so,1] ~ jeff
+- TED talks [na,2.5]
+- lunch [so,.5] ~ jamie, nathan
+- study french [fr,1]
+- french class [fr,2] ~ maria, stine, tito, gabriel
+
+- scan forms [na,.5]
+- plan next couple days / write ohlifes [pl,.5]
+- study french [fr,1.5]
+- dinner [co,1]
+- salsa [da,2] ~ dani
+- plan christmas break [pl,.5]
+
+- help jamie edit post [so,1] ~ jamie wong
+- talk with xuehai and jamie [so,1] ~ xuehai, jamie wong
+
+2013-11-29
+
+{tasks}- tip [cl,2] ~ yalei, haoyu
+- waste time [na,.5]
+- ECE 300B [pr,2.5]
+- lunch [so,1] ~ stine, nathan, daniel, martin, big martin, maria
+- tip TP [cl,2] ~ yalei, haoyu
+
+- help stine/heather with code [pr,.5] ~ stine, heather
+- book stuff [pl,2]
+- chinese food [so,1.5] ~ alex
+- hunger games [so,3] ~ nathan, alex, stine, maria, dani, sam, heather, peter
+
+- jake's party [so,1.5] ~ jake, andreas, dani, merike, sam, jeff, stine, ross, till, martin, mark worker, mark
+
+{deets}
+- found ECE 300B project actually really interesting. had a great time working with LaTeX.
+
+- original plan was to get food with everyone, but people bailed and i ended up being on the phone for booking plans extra long so me and alex just last minute went to food on our own
+- chinese food surprisingly good. not paritcularly chinese but doesn't make it any less delicious
+
+- booked everything for first half of my trip. paris -> munich -> budapest -> prague -> paris. quite expensive for all the extra reservation fees for eurail. definitely know in future now that if i want to use it, i need to buy the eurail pass with everything planned at that time
+
+- hunger games is quite a good movie. played out much better than how it sounded on wikipedia
+
+2013-11-30
+
+{tasks}- waste time [na,1]
+- insanity [ex,1]
+- buy groceries / french movie, get haircut [na,3]
+- ECE 300B [pr,3.5]
+- christmas market [so,2.5] ~ dani, sam, nathan
+
+- waste time [na,1]
+- ECE 300B [pr,2]
+- internet [na,1]
+
+{deets}
+- christmas market is surprisingly good. need to go again to see more of it and get better photos. tried caribou there - a canadian drink consisting of hot red wine, whiskey, and maple syrup. the guy selling it was super quebecois. also tried mulled wine. much better than from the TC party. got a christmas tree!
+

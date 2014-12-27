@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.CodeMirror {
+  border: 1px solid #CCCCCC;
+}
+
+#output, #description, .CodeMirror {
+  text-align: left;
+  padding: 5px;
+  margin: auto;
+  max-width: 500px;
+}
+
+p {
+  margin-bottom: 2px;
+}

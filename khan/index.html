@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+  <title>Challenge Framework</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  <link rel="stylesheet" href="codemirror.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="description"></div>
+
+  <p>Advanced Unit Test:</p>
+  <textarea id="tests"></textarea>
+
+  <p>Student Code:</p>
+  <textarea id="code"></textarea>
+
+  <p>Test Result:</p>
+  <div id="output"></div>
+
+  <script src="codemirror.js"></script>
+  <script src="acorn.js"></script>
+  <script src="api.js"></script>
+  <script>
+    (function() {
+      var $tests = CodeMirror.fromTextArea(document.getElementById('tests'), {
+        mode: 'javascript'
+      });
+      $tests.setSize(null, 75);
+
+      $tests.setValue(
+        'code.mustContain("ForStatement")\n' +
+        '\t.whichMustContain("IfStatement")\n' +
+        '\t.whichMustNotContain("WhileStatement");'
+      );
+
+      var $code = CodeMirror.fromTextArea(document.getElementById('code'), {
+        mode: 'javascript'
+      });
+      $code.setSize(null, 200);
+
+      $code.setValue(
+        'for (var i = 0; i < 10; i++) {\n' +
+        '\tif (true) {\n' +
+        '\t\talert("yay!");\n' +
+        '\t}\n' +
+        '}'
+      );
+
+      var $output = document.getElementById('output');
+
+      function updateCode() {
+        var ast;
+
+        try {
+          var input = $code.getValue();
+          if (input === "") {
+            $output.innerHTML = "";
+            return;
+          }
+
+          ast = acorn.parse(input);
+        } catch(err) {
+          $output.innerHTML = "Invalid javascript in Student Code";
+          return;
+        }
+
+        try {
+          var code = Code(ast);
+          $output.innerHTML = eval($tests.getValue()).test();
+        } catch (err) {
+          $output.innerHTML = "Invalid Advanced Unit Test: " + err.message;
+          return;
+        }
+      };
+
+      $tests.on("change", function() {
+        updateCode();
+      });
+
+      $code.on("change", function() {
+        updateCode();
+      });
+
+      updateCode();
+    })();
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,5 @@
+.DS_Store
+*.swp
+.module-cache/
+interview_prep/benchling/interview-search/resources/*
+node_modules/

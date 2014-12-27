@@ -1,0 +1,114 @@
+<html>
+<head>
+<style type="text/css">
+    html, body {
+        height: 100%;
+    }
+
+    .footer-container {
+        position: absolute;
+        bottom: 50%;
+        width: inherit;
+    }
+
+    #footer-main-container {
+        position: relative;
+    }
+
+    .overlayed-container {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        z-index: 999;
+        display: none;
+        background: #ccc;
+        opacity: .8;
+    }
+
+    .footer-item {
+        -webkit-transition: all .5s;
+    }
+
+    #without-append, #with-append {
+        float: left;
+        width: 40%;
+        height: 100%;
+        border: 2px #000 solid;
+        position: relative;
+    }
+</style>
+</head>
+<body>
+<div id="without-append">
+<h1>Without appendChild</h1>
+<p>If you click on an item, it displays the overlayed container and then transforms with a transition, 
+triggering the webkitTransitionEnd event listener. This sets the overlayed's display back to none again</p>
+
+<div class="overlayed-container"></div>
+<div class="footer-container">
+    <div class="footer-main-container">
+        <div class="footer-item">
+            Click to transition
+        </div>
+        <div class="footer-item">
+            Click to transition
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="with-append">
+<h1>With appendChild</h1>
+<p>If you click on an item, it displays the overlayed container, appends the item to it, and then transforms.
+The transform should have a transition and trigger event listener to remove the overlayed's display. 
+Instead it jumps and nothing is triggered</p>
+<p>(If you put a setTimeout of 0 seconds around the transform, or set a breakpoint, it works fine)<p>
+
+<div class="overlayed-container"></div>
+<div class="footer-container">
+    <div class="footer-main-container">
+        <div class="footer-item">
+            Click to transition
+        </div>
+        <div class="footer-item">
+            Click to transition
+        </div>
+    </div>
+</div>
+</div>
+<script>
+function switchContainer(self, append, container) {
+    var overlay = container.querySelector('.overlayed-container');
+    overlay.style.display = "block";
+
+    if (append) {
+        overlay.appendChild(self);
+    }
+    
+    self.addEventListener('webkitTransitionEnd',
+                          function() { 
+                              overlay.style.display = "none";
+                          }, false);
+    
+    self.style["-webkit-transform"] = "translate(0px, 50px)";
+}
+
+var appendContainer = document.querySelector('#with-append');
+var noAppendContainer = document.querySelector('#without-append');
+
+for (var i=0; i < appendContainer.querySelectorAll('.footer-item').length; i++) {
+    (function(k) {
+        var self = appendContainer.querySelectorAll('.footer-item')[i];
+        self.addEventListener("click", function() { switchContainer(self, true, appendContainer) }, false);
+    })(i)
+};
+
+for (var i=0; i < noAppendContainer.querySelectorAll('.footer-item').length; i++) {
+    (function(k) {
+        var self = noAppendContainer.querySelectorAll('.footer-item')[i];
+        self.addEventListener("click", function() { switchContainer(self, false, noAppendContainer) }, false);
+    })(i)
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+What percentage of time is spent on each goal / wasted / spent partying?
+select round(sum(time_spent),1), category from data group by category;
+ round | category
+-------+----------
+  15.0 | co
+ 133.5 | so
+   8.0 | da
+ 287.6 | sl
+  11.0 | wr
+ 114.0 | na
+  14.5 | re
+  14.0 | pr
+   9.5 | pl
+ 126.5 | tr
+  36.5 | fr
+  18.5 | ex
+  62.5 | cl
+
+How did wasted time change over time?
+select extract(week from on_date) as week, sum(time_spent) from data where category = 'na' group by week order by week;
+ week | sum
+------+------
+   44 |  5.0
+   45 | 22.0
+   46 | 29.5
+   47 | 27.5
+   48 | 16.5
+
+How much time do I spend with people?
+select sum(time_spent) from data where category != 'sl';
+Documented awake hours: 563.5
+
+select sum(time_spent) from data where category != 'sl' and people != '';
+Documented awake hours with people: 305.5
+% awake hours with people: 54%
+
+select lower(trim(regexp_split_to_table(people, ','))) as ppl, sum(time_spent) from data where category != 'sl' and people != '' group by ppl order by sum DESC;
+     ppl     | sum
+-------------+------
+ nathan      | 81.5
+ jamie wong  | 55.5
+ nick        | 55.0
+ merike      | 49.0
+ stine       | 45.0
+ heather     | 43.0
+ dani        | 40.0
+ sam         | 37.5
+ samantha    | 33.0
+ kirsten     | 32.5
+ shefali     | 29.0
+ maria       | 25.0
+ haoyu       | 24.0
+ till        | 21.5
+ jeff        | 18.5
+ yalei       | 18.0
+ gabrielle   | 16.0
+ jake        | 16.0
+ ross        | 15.5
+ carla       | 14.0
+ mark        | 14.0
+ alex        | 13.5
+ marco       | 13.0
+ daniel      | 12.0
+ hanyu       | 12.0
+ guillermo   | 11.0
+ big martin  | 11.0
+ yongli      | 11.0
+ andi        | 10.5
+ cheng       | 10.5
+ carolina    | 10.0
+ julien      | 10.0
+ kayleigh    |  9.5
+ jayne       |  9.5
+ lucas       |  9.0
+ adrian      |  9.0
+ rong        |  9.0
+ sylvia      |  9.0
+ martin      |  9.0
+ kim         |  7.0
+ bonnie      |  7.0
+ eric        |  7.0
+ jesse       |  6.5
+ jamie       |  6.5
+ tito        |  6.0
+ nitesh      |  6.0
+ ashley      |  6.0
+ peter       |  5.0
+ miguel      |  5.0
+ robin       |  5.0
+ jack        |  5.0
+ mark worker |  4.0
+ pawel       |  4.0
+ gonzalo     |  4.0
+ parents     |  3.5
+ nikesh      |  3.5
+ anju        |  3.5
+ ruonan      |  3.5
+ madeline    |  3.0
+ ignacio     |  3.0
+ alexandre   |  2.0
+ sunethri    |  2.0
+ pierre      |  2.0
+ xuehai      |  2.0
+ tiffany     |  1.0
+ stephane    |  1.0
+ vivian      |  1.0
+ nicole      |  1.0
+ steven      |  0.5
+ sean v      |  0.5
+
+How many days of socializing involve drinking?
+select on_date from data where category='so' group by on_date order by on_date;
+Days of socializing: 34
+Days of drinking: 16
+% of days with socializing involving drinking: 47%
+
+Which days am I most social (0 = Sunday)?
+select extract(dow from on_date) as day, sum(time_spent) from data where people != '' and category != 'cl' group by day order by day;
+ day | sum
+-----+------
+   0 | 40.0
+   1 | 23.0
+   2 | 19.0
+   3 | 39.0
+   4 | 43.5
+   5 | 55.5
+   6 | 41.5
+
+Which days do I drink the most?
+select extract(dow from on_date) as day, count(note) from (
+  select on_date, regexp_split_to_table(notes, ':') as note from data where category='sl' and notes != ''
+) as noted where note = 'Drank alcohol' group by day order by day;
+ day | count
+-----+-------
+   0 |     1
+   1 |     1
+   2 |     2
+   3 |     2
+   4 |     3
+   5 |     4
+   6 |     3
+
+Which days do I sleep the most / best?
+select o, round(avg(ts),1) as tavg, round(avg(r),1) as ravg from (
+select extract(dow from on_date) as o, sum(time_spent) as ts, sum(rating) as r from data where category = 'sl' group by on_date order by on_date
+) as d group by o order by o;
+ o | tavg | ravg
+---+------+------
+ 0 |  6.3 | 59.7
+ 1 |  8.4 | 65.3
+ 2 |  9.1 | 77.6
+ 3 |  6.5 | 67.0
+ 4 |  7.0 | 70.6
+ 5 |  6.8 | 67.2
+ 6 |  7.6 | 56.6
+
+What factors affect my sleep?
+select round(avg(rating / time_spent),2) as ratio from data where category = 'sl';
+Average quality / time sleep ratio = 10.10
+
+select round(avg(rating / time_spent),2) as ratio, regexp_split_to_table(notes, ':') as note from data where category='sl' and notes != '' group by note;
+Average per note:
+  ratio |     note
+-------+---------------
+ 10.62 | Worked out
+  9.15 | Drank alcohol
+  9.76 | Ate too much
+ 10.43 | Drank coffee
+
+Sleep + quality graph over time + how it affects time wasted:
+select category, on_date, round(sum(time_spent),1) as ts, round(sum(rating),1) as r from data where category = 'sl' or category = 'na' group by category, on_date order by on_date;
+ category |       on_date       |  ts  |  r
+----------+---------------------+------+------
+ sl       | 2013-10-22 00:00:00 |  8.0 | 87.0
+ na       | 2013-10-22 00:00:00 |  4.0 |
+ sl       | 2013-10-23 00:00:00 |  7.6 | 78.0
+ na       | 2013-10-23 00:00:00 |  2.5 |
+ sl       | 2013-10-24 00:00:00 |  6.3 | 66.0
+ na       | 2013-10-24 00:00:00 |  1.5 |
+ sl       | 2013-10-25 00:00:00 |  4.0 |
+ na       | 2013-10-25 00:00:00 |  2.5 |
+ na       | 2013-10-26 00:00:00 |  3.0 |
+ sl       | 2013-10-26 00:00:00 |  9.0 |
+ sl       | 2013-10-27 00:00:00 |  3.0 |
+ sl       | 2013-10-28 00:00:00 |  9.0 |
+ na       | 2013-10-28 00:00:00 |  2.0 |
+ sl       | 2013-10-29 00:00:00 |  9.0 |
+ na       | 2013-10-29 00:00:00 |  1.0 |
+ sl       | 2013-10-30 00:00:00 |  5.6 | 56.0
+ sl       | 2013-10-31 00:00:00 |  8.5 |
+ sl       | 2013-11-01 00:00:00 |  8.5 | 87.0
+ sl       | 2013-11-02 00:00:00 | 11.3 | 32.0
+ na       | 2013-11-02 00:00:00 |  2.0 |
+ sl       | 2013-11-03 00:00:00 |  8.0 |
+ na       | 2013-11-04 00:00:00 |  5.5 |
+ sl       | 2013-11-04 00:00:00 |  7.9 | 40.0
+ sl       | 2013-11-05 00:00:00 |  9.9 | 94.0
+ na       | 2013-11-05 00:00:00 |  6.0 |
+ sl       | 2013-11-06 00:00:00 |  5.3 | 58.0
+ na       | 2013-11-06 00:00:00 |  4.0 |
+ sl       | 2013-11-07 00:00:00 |  6.1 | 51.0
+ na       | 2013-11-07 00:00:00 |  3.0 |
+ na       | 2013-11-08 00:00:00 |  2.5 |
+ sl       | 2013-11-08 00:00:00 |  7.7 | 36.0
+ sl       | 2013-11-09 00:00:00 |  2.5 | 15.0
+ na       | 2013-11-10 00:00:00 |  1.0 |
+ sl       | 2013-11-10 00:00:00 |  9.4 | 68.0
+ na       | 2013-11-12 00:00:00 |  6.0 |
+ sl       | 2013-11-12 00:00:00 | 14.8 | 70.0
+ sl       | 2013-11-13 00:00:00 |  6.0 | 56.0
+ na       | 2013-11-13 00:00:00 |  4.5 |
+ sl       | 2013-11-14 00:00:00 |  7.6 | 85.0
+ na       | 2013-11-14 00:00:00 |  5.0 |
+ sl       | 2013-11-15 00:00:00 |  6.4 | 64.0
+ na       | 2013-11-15 00:00:00 |  5.0 |
+ na       | 2013-11-16 00:00:00 |  2.0 |
+ sl       | 2013-11-16 00:00:00 |  8.2 | 90.0
+ na       | 2013-11-17 00:00:00 |  7.0 |
+ sl       | 2013-11-17 00:00:00 |  4.5 | 48.0
+ na       | 2013-11-18 00:00:00 |  6.0 |
+ sl       | 2013-11-18 00:00:00 |  8.3 | 84.0
+ na       | 2013-11-19 00:00:00 |  3.5 |
+ sl       | 2013-11-19 00:00:00 |  5.4 | 60.0
+ na       | 2013-11-20 00:00:00 |  1.0 |
+ sl       | 2013-11-20 00:00:00 |  6.8 | 70.0
+ na       | 2013-11-21 00:00:00 |  1.0 |
+ sl       | 2013-11-21 00:00:00 |  8.0 | 88.0
+ sl       | 2013-11-22 00:00:00 |  5.8 | 55.0
+ na       | 2013-11-22 00:00:00 |  3.0 |
+ sl       | 2013-11-23 00:00:00 |  7.4 | 65.0
+ na       | 2013-11-23 00:00:00 |  8.0 |
+ na       | 2013-11-24 00:00:00 |  5.0 |
+ sl       | 2013-11-24 00:00:00 |  6.8 | 63.0
+ sl       | 2013-11-25 00:00:00 |  8.5 | 72.0
+ na       | 2013-11-25 00:00:00 |  2.5 |
+ sl       | 2013-11-26 00:00:00 |  7.6 | 77.0
+ na       | 2013-11-26 00:00:00 |  2.5 |
+ sl       | 2013-11-27 00:00:00 |  7.6 | 84.0
+ na       | 2013-11-27 00:00:00 |  2.0 |
+ sl       | 2013-11-28 00:00:00 |  5.6 | 63.0
+ na       | 2013-11-28 00:00:00 |  3.0 |
+ na       | 2013-11-29 00:00:00 |  0.5 |
+ sl       | 2013-11-29 00:00:00 |  8.6 | 94.0
+ sl       | 2013-11-30 00:00:00 |  7.3 | 81.0
+ na       | 2013-11-30 00:00:00 |  6.0 |
+
+Graph of sociability on same scale:
+select on_date, round(sum(time_spent),1) from data where people != '' and category != 'cl' group by on_date order by on_date;
+       on_date       | round
+---------------------+-------
+ 2013-10-22 00:00:00 |   2.0
+ 2013-10-23 00:00:00 |   2.0
+ 2013-10-24 00:00:00 |   9.5
+ 2013-10-25 00:00:00 |  11.0
+ 2013-10-26 00:00:00 |   9.0
+ 2013-10-27 00:00:00 |  14.0
+ 2013-10-29 00:00:00 |   8.0
+ 2013-10-30 00:00:00 |  14.0
+ 2013-10-31 00:00:00 |   6.0
+ 2013-11-01 00:00:00 |  11.0
+ 2013-11-02 00:00:00 |   4.0
+ 2013-11-03 00:00:00 |  13.0
+ 2013-11-04 00:00:00 |   4.0
+ 2013-11-05 00:00:00 |   1.0
+ 2013-11-06 00:00:00 |   6.0
+ 2013-11-07 00:00:00 |   6.0
+ 2013-11-08 00:00:00 |   9.0
+ 2013-11-09 00:00:00 |  18.5
+ 2013-11-10 00:00:00 |  10.0
+ 2013-11-11 00:00:00 |  16.0
+ 2013-11-12 00:00:00 |   0.5
+ 2013-11-13 00:00:00 |   5.0
+ 2013-11-14 00:00:00 |   9.5
+ 2013-11-15 00:00:00 |   6.5
+ 2013-11-16 00:00:00 |   5.5
+ 2013-11-17 00:00:00 |   0.5
+ 2013-11-18 00:00:00 |   1.0
+ 2013-11-19 00:00:00 |   3.0
+ 2013-11-20 00:00:00 |   5.5
+ 2013-11-21 00:00:00 |   5.0
+ 2013-11-22 00:00:00 |  10.5
+ 2013-11-23 00:00:00 |   2.0
+ 2013-11-24 00:00:00 |   2.5
+ 2013-11-25 00:00:00 |   2.0
+ 2013-11-26 00:00:00 |   4.5
+ 2013-11-27 00:00:00 |   6.5
+ 2013-11-28 00:00:00 |   7.5
+ 2013-11-29 00:00:00 |   7.5
+ 2013-11-30 00:00:00 |   2.5
+
+ Highlight days that involved bi-phasic sleeping:
+ select count(on_date) as count, on_date from data where category = 'sl' group by on_date order by count;
+2013-11-25
+2013-11-10
+2013-11-20
+2013-11-24
+2013-11-18
+2013-11-15
+2013-10-31
+2013-10-29
+2013-11-12
+2013-11-04
+2013-11-08
+2013-11-02
+
+
+If I plan ahead for what to do in a day, do I get more done?
+If I plan ahead with more items than I know I’ll have time for, what impact does that have?
+When there's a lot of wasted time, what gets neglected?
+

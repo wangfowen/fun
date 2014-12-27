@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Inkling Gradient Challenge</title>
+    <style type="text/css" media="screen">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #gradient {
+            position: relative;
+            margin: 0 auto;
+            width: 400px;
+            height: 400px;
+        }
+
+        #gradient div {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+     <div id="gradient"></div>
+
+    <script type="text/javascript" charset="utf-8">
+        var element = document.getElementById('gradient'); 
+        var gradient = new Gradient(element, [0, 255]);
+
+        function Gradient (element, stopValues) {
+            this.element = element;
+            this.radius = (element.getBoundingClientRect().height)/2;
+            this.stopValues = stopValues;
+            var self = this;
+
+            //function which creates the gradient based on the stopValues
+            this.draw = function() {
+                var offset = 0;
+                var color = this.stopValues[0];
+                //fix incrementation and make it work for one stopValue
+                var divisions = this.radius/(this.stopValues.length - 1);
+
+                //loop to create incrementally larger circles to make it look like a gradient
+                for (j = 0; j < this.stopValues.length - 1; j++) {
+                    var start = this.stopValues[j];
+                    var end = this.stopValues[j + 1];
+                    
+                    for (i = j * divisions; i < (j+1) * divisions; i += 2) {
+                        //create a colored circle
+                        this.element.appendChild(circle = document.createElement('div'));
+                        circle.style.width = this.radius - i + "px";
+                        circle.style.height = this.radius - i + "px";
+                        circle.style["background-color"] = "rgb(" + color + ","+ color + "," + color + ")";
+                        circle.style.top = offset + "px";
+                        circle.style.left = offset + "px";
+                        circle.style["border-radius"] = "100%";
+                        offset++;
+                        color = (end - start) > 0 ? Math.floor((end - start) * (i/this.radius)) : Math.floor((end - start) * (i/this.radius) + 255);
+                    }
+                }
+
+
+            };
+
+            //clear the gradient
+            this.clear = function() {
+                element.innerHTML = '';
+            };
+
+            //the following are all methods for modifying stopValues of the gradient
+            this.pop = function() {
+                return self.stopValues.pop();
+            };
+
+            this.push = function(stopValues) {
+                //make more DRY
+
+                var i = 0;
+                while (arguments[i] != undefined) {
+                    self.stopValues.push(arguments[i]);
+                    i++;
+                }
+            };
+
+            this.shift = function() {
+                return self.stopValues.shift();
+            };
+
+            this.unshift = function(stopValues) {
+                var i = 0;
+
+                while (arguments[i] != undefined) {
+                    self.stopValues.unshift(arguments[i]);
+                    i++;
+                }
+            };
+
+            this.reverse = function() {
+                self.stopValues.reverse();
+            };
+
+            this.map = function(callback) {
+                for (i = 0; i < self.stopValues.length; i++) {
+                    self.stopValues[i] = callback(self.stopValues[i]);   
+                }
+            };
+
+            this.sort = function(callback) {
+                for (i = 1; i < self.stopValues.length; i++) {
+                    var j = i;
+                    //is this where I would put the callback..?
+                    while (callback || (self.stopValues[j] < self.stopValues[j - 1])) {
+                        var tmp = self.stopValues[j];
+                        self.stopValues[j] = self.stopValues[j - 1];
+                        self.stopValues[j - 1] = tmp;
+                        j--;
+                    }
+                }
+            };
+
+            this.draw.call(this);
+        }
+
+    </script>
+</body>
+</html>
