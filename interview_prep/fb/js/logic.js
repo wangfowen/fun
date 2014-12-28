@@ -11,23 +11,23 @@ function layOutDay(events) {
       return;
     }
 
-    var earliestOverlapEnd = eventsQueue[0].end;
-    var W = eventsQueue.length;
-    var currW = 0;
+    var W = 1;
 
-    //loop through to figure out max W
-    _.each(eventsQueue, function(event) {
-      if (event.start > earliestOverlapEnd) {
-        earliestOverlapEnd = event.end;
-        if (currW < W) {
-          W = currW;
-        }
-        currW = 0;
-      } else {
+    _.each(eventsQueue, function(event, i, events) {
+      var currW = 1;
+      var laterIndex = i + 1;
+
+      while (laterIndex < events.length && events[laterIndex].start < event.end) {
         currW++;
+        laterIndex++;
+      }
+
+      if (currW > W) {
+        W = currW;
       }
     });
 
+    //TODO: how figure out which position is free?
     var num = 0;
     _.each(eventsQueue, function(event) {
       eventRenders.push({
@@ -68,6 +68,7 @@ function layOutDay(events) {
     .sortBy(function(event) { return event.start; })
     //main logic of laying out
     .each(function(currEvent) {
+      //when no longer overlapping, place overlapping ones
       if (eventsQueue.length > 0 && currEvent.start >= maxQueuedEnd) {
         placeQueued();
       }
@@ -93,7 +94,9 @@ layOutDay([{start: 30, end: 150}, {start: 540, end: 600}, {start: 560, end: 620}
 //layOutDay([{start: 50, end: 100}, {start: 70, end: 120}, {start: 90, end: 140}, {start: 100, end: 120}, {start: 110, end: 130}]);
 //double chained overlaps - should be thirds
 //layOutDay([{start: 50, end: 100}, {start: 70, end: 120}, {start: 90, end: 140}, {start: 100, end: 120}, {start: 120, end: 130}]);
-//first and third and fifth touching
+//first and third and fifth touching - should be thirds
 //layOutDay([{start: 30, end: 100}, {start: 50, end: 200}, {start: 100, end: 150}, {start: 100, end: 170}, {start: 150, end: 200}]);
-//four in a row, no overlap
+//four in a row, no overlap - should be 1
 //layOutDay([{start: 50, end: 100}, {start: 100, end: 200}, {start: 200, end: 300}, {start: 300, end: 500}]);
+//two big ones, then two at back - should be 3
+//layOutDay([{start: 50, end: 200}, {start: 70, end: 300}, {start: 70, end: 100}, {start: 110, end: 200}]);
