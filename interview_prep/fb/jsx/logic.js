@@ -6,6 +6,7 @@ function layOutDay(events) {
   var eventsQueue = [];
   var maxQueuedEnd = 0;
 
+  //all queued ones should be overlapping, meaning they should have the same W
   var placeQueued = function() {
     if (eventsQueue.length == 0) {
       return;
@@ -107,17 +108,31 @@ function layOutDay(events) {
 }
 
 layOutDay([{start: 30, end: 150}, {start: 540, end: 600}, {start: 560, end: 620}, {start: 610, end: 670}]);
+
+/* other test cases
+
 //large overlapping two as first - should all be thirds
-//layOutDay([{start: 80, end: 100}, {start: 50, end: 400}, {start: 200, end: 300}, {start: 210, end: 320}]);
+layOutDay([{start: 80, end: 100}, {start: 50, end: 400}, {start: 200, end: 300}, {start: 210, end: 320}]);
+
 //large overlapping two as second - should all be thirds
-//layOutDay([{start: 30, end: 100}, {start: 50, end: 400}, {start: 200, end: 300}, {start: 210, end: 320}]);
+layOutDay([{start: 30, end: 100}, {start: 50, end: 400}, {start: 200, end: 300}, {start: 210, end: 320}]);
+
 //super chained overlaps - should be 4ths
-//layOutDay([{start: 50, end: 100}, {start: 70, end: 120}, {start: 90, end: 140}, {start: 100, end: 120}, {start: 110, end: 130}]);
+layOutDay([{start: 50, end: 100}, {start: 70, end: 120}, {start: 90, end: 140}, {start: 100, end: 120}, {start: 110, end: 130}]);
+
 //double chained overlaps - should be thirds
-//layOutDay([{start: 50, end: 100}, {start: 70, end: 120}, {start: 90, end: 140}, {start: 100, end: 120}, {start: 120, end: 130}]);
+layOutDay([{start: 50, end: 100}, {start: 70, end: 120}, {start: 90, end: 140}, {start: 100, end: 120}, {start: 120, end: 130}]);
+
 //first and third and fifth touching - should be thirds
-//layOutDay([{start: 30, end: 100}, {start: 50, end: 300}, {start: 100, end: 150}, {start: 100, end: 170}, {start: 150, end: 200}]);
+layOutDay([{start: 30, end: 100}, {start: 50, end: 300}, {start: 100, end: 150}, {start: 100, end: 170}, {start: 150, end: 200}]);
+
 //four in a row, no overlap - should be 1
-//layOutDay([{start: 50, end: 100}, {start: 100, end: 200}, {start: 200, end: 300}, {start: 300, end: 500}]);
+layOutDay([{start: 50, end: 100}, {start: 100, end: 200}, {start: 200, end: 300}, {start: 300, end: 500}]);
+
 //two big ones, then two at back - should be 3
-//layOutDay([{start: 50, end: 200}, {start: 70, end: 300}, {start: 70, end: 100}, {start: 110, end: 200}]);
+layOutDay([{start: 50, end: 200}, {start: 70, end: 300}, {start: 70, end: 100}, {start: 110, end: 200}]);
+
+//load test
+layOutDay([{start: 300, end: 500},{start:300,end:600}, {start: 300, end: 400}, {start: 310, end: 350}, {start: 320, end: 450}, {start: 300, end: 450}, {start: 300, end: 500}, {start: 400, end: 600}, {start: 650, end: 700}, {start: 600, end: 650}, {start: 600, end: 700}, {start: 300, end: 500}, {start: 200, end: 450}, {start: 100, end: 500}, {start: 400, end: 500}, {start: 350, end: 400}, {start: 450, end: 600}, {start: 100, end: 400}, {start: 300, end: 500},{start:300,end:600}, {start: 300, end: 400}, {start: 310, end: 350}, {start: 320, end: 450}, {start: 300, end: 450}, {start: 300, end: 500}, {start: 400, end: 600}, {start: 650, end: 700}, {start: 600, end: 650}, {start: 600, end: 700}, {start: 300, end: 500}, {start: 200, end: 450}, {start: 100, end: 500}, {start: 400, end: 500}, {start: 350, end: 400}, {start: 450, end: 600}, {start: 100, end: 400}, {start: 300, end: 500},{start:300,end:600}, {start: 300, end: 400}, {start: 310, end: 350}, {start: 320, end: 450}, {start: 300, end: 450}, {start: 300, end: 500}, {start: 400, end: 600}, {start: 650, end: 700}, {start: 600, end: 650}, {start: 600, end: 700}, {start: 300, end: 500}, {start: 200, end: 450}, {start: 100, end: 500}, {start: 400, end: 500}, {start: 350, end: 400}, {start: 450, end: 600}, {start: 100, end: 400}, {start: 300, end: 500},{start:300,end:600}, {start: 300, end: 400}, {start: 310, end: 350}, {start: 320, end: 450}, {start: 300, end: 450}, {start: 300, end: 500}, {start: 400, end: 600}, {start: 650, end: 700}, {start: 600, end: 650}, {start: 600, end: 700}, {start: 300, end: 500}, {start: 200, end: 450}, {start: 100, end: 500}, {start: 400, end: 500}, {start: 350, end: 400}, {start: 450, end: 600}, {start: 100, end: 400}]);
+
+*/
