@@ -53,7 +53,8 @@ var Event = React.createClass({displayName: 'Event',
     };
 
     //{this.props.title} and {this.props.location} for dynamic content
-    return (React.createElement("div", {className: "event", style: style}, 
+    return (
+      React.createElement("div", {className: "event", style: style}, 
         React.createElement("p", {className: "title"}, "Sample Item"), 
         React.createElement("p", {className: "location"}, "Sample Location")
       )

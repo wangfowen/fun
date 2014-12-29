@@ -6,21 +6,24 @@ function layOutDay(events) {
   var eventsQueue = [];
   var maxQueuedEnd = 0;
 
-  //all queued ones should be overlapping, meaning they should have the same W
+  //queue contains overlapping events
+  //convert them into eventRenders (what React will expect the events to look like) to be placed on the calendar
   var placeQueued = function() {
+    //nothing to place
     if (eventsQueue.length == 0) {
       return;
     }
 
     var W = 1;
-
     var num = 0;
     var latestInColumn = [];
 
+    //all queued ones should be overlapping, meaning they should have the same W
     //figure out W by trying to place them in columns
     _.each(eventsQueue, function(event) {
       var matched = false;
 
+      //see if fits into a column
       for (var i = 0; i < latestInColumn.length; i++) {
         if (!latestInColumn[num] || latestInColumn[num] <= event.start) {
           matched = true;
@@ -36,6 +39,7 @@ function layOutDay(events) {
         W++;
         num = W - 1;
       }
+
       latestInColumn[num] = event.end;
     });
 
@@ -88,13 +92,14 @@ function layOutDay(events) {
     })
     //sort by start time
     .sortBy(function(event) { return event.start; })
-    //main logic of laying out
+    //place the events onto the calendar
     .each(function(currEvent) {
-      //when no longer overlapping, place overlapping ones
+      //if event doesn't overlap with previous ones, place overlapping ones
       if (eventsQueue.length > 0 && currEvent.start >= maxQueuedEnd) {
         placeQueued();
       }
 
+      //add current event to the overlap queue
       eventsQueue.push(currEvent);
       if (currEvent.end > maxQueuedEnd) {
         maxQueuedEnd = currEvent.end;
