@@ -6,7 +6,8 @@ var addUnblockButton = function(selector) {
     "- Read a book",
     "- Write in your journal",
     "- Talk to friends",
-    "- Do graphics work"
+    "- Hit the gym",
+    "- Work on next action"
   ].join("<br>");
 
   var holdLength = 5000;

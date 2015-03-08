@@ -22,6 +22,11 @@
       "js": ["jquery.js", "shared.js", "fb-block.js"]
     },
     {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["shared.css", "youtube-block.css"],
+      "js": ["jquery.js", "shared.js", "youtube-block.js"]
+    },
+    {
       "matches": ["https://twitter.com/*"],
       "css": ["shared.css", "twitter-block.css"],
       "js": ["jquery.js", "shared.js", "twitter-block.js"]
